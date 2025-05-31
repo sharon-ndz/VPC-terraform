@@ -2,11 +2,11 @@
 environment = "stage"
 
 common_tags = {
-  "Owner" = "Thomas"
+  "Owner" = "IDLMS"
   "Project" = "Terraform VPC"
   "Environment" = "Stage"
 }
-
+tf_state_bucket = "my-terraform-state-bckt"
 
 enable_dns_support          = true
 enable_dns_hostnames        = true
